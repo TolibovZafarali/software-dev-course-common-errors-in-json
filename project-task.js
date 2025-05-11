@@ -99,3 +99,15 @@ const invalidBookingJSON = `
 4️⃣ What strategies can help you avoid these kinds of errors in the future?
    (e.g., syntax highlighting, linters, writing JSON by example)
 */
+
+// Answers:
+
+/*
+The first error I noticed is the missing coma after chechInDate property. 
+Then, I've noticed missing quotation marks for name property.
+Since JSON file needs to follow the strict rules, every key needs to have quotation marks.
+The next issue I've found was with the undefined value for age key. Since it would not be possible to pass undefined value, I have changed that to 'null'.
+The last syntax error is with the array for amenities key, there is an extra comma after "Parking". Removed that.
+*/
+
+//Finally, I have checked if this JSON file was valid or not with the link that was provided to us. And now it says that this JSON file is valid!.
